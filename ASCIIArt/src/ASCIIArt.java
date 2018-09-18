@@ -13,5 +13,33 @@
  * @author Mr. Rasmussen 
  *
  */
-
 // YOUR CODE GOES HERE :)
+public class ASCIIArt{
+	public static void main(String[] args) 
+	{
+		top();
+		seg();
+		seg();
+		seg();
+		System.out.println("    |----|");
+		System.out.println("    | () |");
+		System.out.println("    |____|");
+		System.out.println("A tree");
+	}
+	public static void seg() 
+	{
+		System.out.println("    /    \\");
+		System.out.println("   /      \\");
+		System.out.println("  /        \\");
+		System.out.println(" /          \\");
+		System.out.println("/___      ___\\");
+	}
+	public static void top() 
+	{
+		System.out.println("      /\\");
+		System.out.println("     /  \\");
+		System.out.println("    /    \\");
+		System.out.println("   /      \\");
+		System.out.print("  /_      _\\\n");
+	}
+}
