@@ -20,16 +20,24 @@ public class ASCIIArt{
 		top();
 		seg();
 		seg();
-		seg();
-		System.out.println("    |----|");
+		seg2();
+		seg2();
+		trunk();
 		System.out.println("    | () |");
-		System.out.println("    |____|");
+		trunk();
 		System.out.println("A tree");
 	}
 	public static void seg() 
 	{
 		System.out.println("    /    \\");
 		System.out.println("   /      \\");
+		System.out.println("  /        \\");
+		System.out.println(" /          \\");
+		System.out.println("/___      ___\\");
+	}
+	public static void seg2()
+	{
+		System.out.println("   _/    \\_");
 		System.out.println("  /        \\");
 		System.out.println(" /          \\");
 		System.out.println("/___      ___\\");
@@ -41,5 +49,9 @@ public class ASCIIArt{
 		System.out.println("    /    \\");
 		System.out.println("   /      \\");
 		System.out.print("  /_      _\\\n");
+	}
+	public static void trunk()
+	{
+		System.out.println("    |____|");
 	}
 }
